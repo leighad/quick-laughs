@@ -1,5 +1,14 @@
 const BASE_URL = 'https://v2.jokeapi.dev/joke/programming'
 
-fetch(BASE_URL)
+function fetchJoke(){
+    fetch(BASE_URL)
     .then(res => res.json())
-    .then(json => console.log(json))
+    .then(console.log)
+    // .then(data => renderJoke(data))
+}
+
+
+
+fetchJoke()
+
+
