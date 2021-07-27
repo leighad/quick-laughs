@@ -12,16 +12,16 @@ function renderJoke(data){
     const h3Tag = document.createElement('h3')
     const h4Tag = document.createElement('h4')
 
-    if (data.type == 'single'){
+    if (data.flags.values != true && data.id != 47 && data.id != 8) {
+        if (data.type == 'single'){
             h3Tag.innerText = data.joke
             jokeContainer.appendChild(h3Tag)
-    } else {
+        } else {
             h3Tag.innerText = data.setup
             h4Tag.innerText = data.delivery
             jokeContainer.appendChild(h3Tag)
             jokeContainer.appendChild(h4Tag)
-
-
+        }
     }
 }
 
