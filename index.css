@@ -8,6 +8,10 @@ h1 {
     text-shadow: 2px 2px 8px lightcoral;
 }
 
+div#joke-container > h3:first-child {
+    color: lightcoral
+}
+
 .button {
     background-color: gainsboro;
     border-color: black;
