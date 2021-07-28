@@ -1,4 +1,6 @@
-const BASE_URL = 'https://v2.jokeapi.dev/joke/programming'
+const PROG_URL = 'https://v2.jokeapi.dev/joke/programming'
+const PUN_URL = 'https://v2.jokeapi.dev/joke/pun'
+
 
 const jokeContainer = document.getElementById('joke-container')
 
@@ -6,7 +8,7 @@ const h3Tag = document.createElement('h3')
 const h4Tag = document.createElement('h4')
 
 function fetchJoke(){
-    fetch(BASE_URL)
+    fetch(PROG_URL)
     .then(res => res.json())
     .then(data => renderJoke(data))
 }
@@ -27,7 +29,7 @@ function renderJoke(data){
 }
 
 function getJoke(){
-    const jokeButton = document.getElementById('button')
+    const jokeButton = document.getElementById('button1')
 
     jokeButton.addEventListener("click", () => {
         h3Tag.innerText = ""
