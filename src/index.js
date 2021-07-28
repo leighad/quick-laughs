@@ -13,7 +13,7 @@ function fetchJokeProg(){
 }
 
 function renderJokeProg(data){    
-    if (data.flags.values != true && data.id != 47 && data.id != 8) {
+    if (data.flags.values != true && data.id != 8 && data.id != 47) {
 
         if (data.type == 'single'){
             h3Tag.innerText = data.joke
@@ -45,7 +45,7 @@ function fetchJokePun(){
 }
 
 function renderJokePun(data){    
-    if (data.flags.values != true) {
+    if (data.flags.values != true && data.id != 62 && data.id != 64 && data.id != 87 && data.id != 95 && data.id != 136 && data.id != 155 && data.id != 156 && data.id != 177 && data.id != 240) {
 
         if (data.type == 'single'){
             h3Tag.innerText = data.joke
