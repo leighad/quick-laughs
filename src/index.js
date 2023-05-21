@@ -1,5 +1,5 @@
-const PROG_URL = 'https://v2.jokeapi.dev/joke/programming'
-const PUN_URL = 'https://v2.jokeapi.dev/joke/pun'
+const PROG_URL = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit'
+const PUN_URL = 'https://v2.jokeapi.dev/joke/Pun?blacklistFlags=nsfw,religious,political,racist,sexist,explicit'
 
 const jokeContainer = document.getElementById('joke-container')
 
