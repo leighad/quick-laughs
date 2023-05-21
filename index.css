@@ -32,3 +32,7 @@ div#joke-container h2 {
     font-weight: bold;
     margin: 4px 2px
   }
+
+  div#disclaimer h6 {
+    color: lightcoral
+}
