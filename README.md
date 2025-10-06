@@ -4,4 +4,4 @@ Quick laughs is a place you can visit when you just need to giggle for a minute.
 
 For a chuckle, just clone this repo onto your local environment and then run <strong>open index.html</strong> from the command line. Click until you laugh!
 
-Or go to :https://leighad.github.io/quick-laughs/
+Or go to: https://leighad.github.io/quick-laughs/
