@@ -5,13 +5,13 @@ body {
 }
 
 h1 {
-    text-shadow: 2px 2px 8px lightcoral;
+    text-shadow: 2px 2px 8px black;
 }
 
 div#description > h2:first-child {
     color: lightcoral;
     font-size: 30px;
-    text-shadow: 1px 1px 2px white
+    text-shadow: 1px 1px 2px black
 }
 
 div#joke-container h2 {
